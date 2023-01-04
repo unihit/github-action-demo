@@ -6,10 +6,10 @@ on:
     branches: [ master ]
 
 env:
-  PROJECT_NAME: cicd_project
-  BUCKET_NAME: kbsat-cicd-bucket
-  CODE_DEPLOY_APP_NAME: cicdapp
-  DEPLOYMENT_GROUP_NAME: cicdapp_deploy
+  PROJECT_NAME: github-action-demo
+  BUCKET_NAME: unihit-cicd-demo
+  CODE_DEPLOY_APP_NAME: unihit-cicd-demo
+  DEPLOYMENT_GROUP_NAME: unihit-cicd-deploy-demo
 
 jobs:
   build:
